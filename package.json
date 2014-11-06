@@ -1,6 +1,7 @@
 {
     "name": "excel-parser",
     "description": "excel parser",
+    "version": "0.1.1",
     "author": "luis",
     "repository": {
         "type": "git",
