@@ -1,0 +1,12 @@
+{
+  "name": "excel-parser",
+  "description": "excel parser",
+  "author": "luis",
+  "dependencies": {
+    "node-xlsx": "~0.5.0"
+  },
+  "preferGlobal": "true",
+    "bin": {
+      "salesforcecsv" : "lib/parser.js"
+    }
+}
