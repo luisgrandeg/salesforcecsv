@@ -1,12 +1,16 @@
 {
-  "name": "excel-parser",
-  "description": "excel parser",
-  "author": "luis",
-  "dependencies": {
-    "node-xlsx": "~0.5.0"
-  },
-  "preferGlobal": "true",
+    "name": "excel-parser",
+    "description": "excel parser",
+    "author": "luis",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/luisgrandeg/salesforcecsv.git"
+    },
+    "dependencies": {
+        "node-xlsx": "~0.5.0"
+    },
+    "preferGlobal": "true",
     "bin": {
-      "salesforcecsv" : "lib/parser.js"
+        "salesforcecsv": "lib/parser.js"
     }
 }
