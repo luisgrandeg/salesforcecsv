@@ -1,0 +1,12 @@
+extends layout
+
+block script
+  script(src="./js/index.js")
+
+block content
+  h1= title
+  form(enctype="multipart/form-data",method="post",action="./parse",class="parse-excels")
+    div
+      input(type="file",name="file1")
+      //span(class="more") +
+    input(type="submit",value="Send files")

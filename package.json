@@ -1,14 +1,18 @@
 {
-    "name": "excel-parser",
-    "description": "excel parser",
-    "version": "0.1.1",
+    "name": "salesforcecsv",
+    "description": "Salesforce csv generator",
+    "version": "0.1.0",
     "author": "luis",
     "repository": {
         "type": "git",
         "url": "git://github.com/luisgrandeg/salesforcecsv.git"
     },
     "dependencies": {
-        "node-xlsx": "~0.5.0"
+        "node-xlsx": "~0.5.0",
+        "express": "4.x",
+        "multer": "0.x",
+        "easyimage": "0.x",
+        "archiver": "~0.12.0"
     },
     "preferGlobal": "true",
     "bin": {
